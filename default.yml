@@ -8,6 +8,7 @@ AllCops:
   Exclude:
     - 'vendor/**/*'
     - '*.gemspec'
+  NewCops: enable
 
 Bundler/OrderedGems:
   Enabled: false
@@ -27,6 +28,9 @@ Layout/EndAlignment:
 Layout/FirstArrayElementIndentation:
   EnforcedStyle: consistent
 
+Layout/LineLength:
+  Max: 100
+
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
 
@@ -43,9 +47,6 @@ Layout/EmptyLinesAroundArguments:
 Lint/RescueException:
   Exclude:
     - 'lib/tasks/*.rake'
-
-Metrics/LineLength:
-  Max: 100
 
 Metrics/AbcSize:
   Enabled: false
