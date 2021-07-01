@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    enercop (0.1.0)
+    enercop (0.1.1)
       rubocop
       rubocop-rspec
 
